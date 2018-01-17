@@ -3,7 +3,7 @@ var angDisplay;
 function setup() {
   angDisplay = select('#angle')
   createCanvas(500,500);
-  strokeWeight(3);
+  strokeWeight(2);
   ang = createSlider(0,PI,PI/4,0.001);
 }
 
